@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- name of title -->
+  <title>Icon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+   <!-- jquery -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+		    <!-- navbar brand name is motivation  -->
+            <a class="navbar-brand" href="#">MOTIVATION</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<!-- list of each section which includes the home, about, story and social media -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#story">Story</a>
+                    </li>    
+					<li class="nav-item">
+                        <a class="nav-link" href="#social media">Social Media</a>
+                    </li>                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+	
+	<!-- main banner with the image and home -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+        </div>
+    </section>
+	
+	
+    <!-- about section which includes the biography about eric thomas-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+		    <!-- heading one that includes biography with the text aligned to the center -->
+            <h1 class="text-center">Biograpghy</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+				    <!-- picture of eric thomas in the about section -->
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="Picture of Eric Thomas">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+						 <!-- list of details about eric thomas -->
+                            <ul>
+                                <li>Name: Eric Thomas</li>
+                                <li>Date of Birth: 3 September 1970</li>
+                                <li>Occupation: Motivational Speaker</li>
+
+                            </ul>
+                        </div>
+					<!-- button that opens to eric thomas wikipedia page -->
+                    <form action="https://en.wikipedia.org/wiki/Eric_Thomas_(motivational_speaker)" method="get" target="_blank">
+                    <button type="submit">Wikipedia</button>
+                    </form>
+                    </div>
+                    <div class="row mt-3">
+					    <!-- paragraph about eric thomas -->
+                        <p> Dr. Eric Thomas, aka ET the Hip-Hop Preacher, is a motivational speaker, author, and minister known for his high-energy speaking engagements. As CEO of his Consulting Firm. ETA LLC., Thomas has led his team through the doors of dozens of hugely successful organizations and Fortune 500 companies such as General Electric, Quicken Loans, AT&T, Nike, Under Armour, New Balance, and UPS and continues to consult for major league sports franchises within the MLB, NBA NFL, MLS. Born in Chicago in 1970, Thomas grew up in Detroit, where he dropped out of high school and spent several years living on the streets. During this period, he met a minister who successfully convinced him to return to school. Thomas eventually earned his bachelor's degree from Oakwood University in Huntsville, Alabama, where he also began preaching and working with at-risk youth. In 2003, he moved back to Michigan and began working on his master's degree at Michigan State University. Ultimately, Thomas graduated from MSU with both a master's degree in K-12 administration and a Ph.D. in education administration. While at MSU, he continued to preach and authored several books, including 2012's The Secret to Success and 2014's Greatness Is Upon You. Thomas has also released several albums setting his motivational talks to hip-hop music.
+                        </p>
+						<!-- This enables the panel to flip up and down by clicking on it-->
+						<script> 
+                            $(document).ready(function(){
+                            $("#flip").click(function(){
+                            $("#panel").slideToggle("slow");
+                            });
+                            });
+                        </script>
+						<div id="flip">Click for Motivation by Eric Thomas</div>
+                        <div id="panel">“When you want to succeed as bad as you want to breathe, then you'll be successful.”</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+    </section>
+	
+	<br>
+	 <!-- story section-->
+    <section id="story">
+        <div class="container">
+		    <!-- heading one that includes story with the text aligned to the center -->
+            <h1 class="text-center">Story</h1>
+            <div class="row">
+                <div class="row mt-3"> 
+				  <!-- paragraph story about why eric thomas is important to me -->
+				  <p>"I've got a dream that's worth more than my sleep,"(Eric Thomas). This is only one of many inspiring quotes by my hero, Eric Thomas. Eric Thomas is a fantastic motivational speaker, who continues to motivate people to work hard and be great. He makes people want to get up, and stop being victims. Eric Thomas was not only the son of a teen mother, but a high school dropout at sixteen. He was homeless for two and a half years as well. Eric was never the best student, however he returned to school to get his GED and continued to get his PhD, which took twelve years. Now, I know you're wondering, how could a man who dropped out of high school, and got kicked out of his own home be a hero? Well, a hero is someone who takes their time to succeed and takes all the negative in their life and turns it into something positive. Someone who falls under the title "hero" is willing to do the hard work and make something of themselves. Eric Thomas falls under the category hero because he kept a positive mindset around a negative environment, which is not something that everyone can do. Eric Thomas is my hero because he is hard-working, he has a positive attitude, and is therefore inspiring. </p>
+			
+                </div>
+            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+	  <!-- social media section -->
+	  <section id="social media">
+        <div class="container">
+            <div class="row">
+                <div class="row mt-3"> 
+                 <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/etthehiphoppreacher" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/etthehiphoppreacher/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/Ericthomasbtc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/etinspires" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+			<!-- video about eric thomas on youtube -->
+			<iframe width="420" height="315"
+            src="https://www.youtube.com/embed/7Oxz060iedY">
+            </iframe>
+        </div>
+    </footer>
+                </div>
+
+            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	 <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+	
+	
+	</body>
+
+</html>

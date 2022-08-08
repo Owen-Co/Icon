@@ -1,0 +1,70 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:135vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+	border-radius: 50%;
+	height: 100%;
+	
+
+}
+/*adds colours to the button*/
+button {
+  background-color: solid black;
+  color: #008B8B;
+  border: solid 1px black;
+  }
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover{
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+/* Makes the story background grey */
+#story {
+	background-color: #808080;
+}
+
+/* Makes the about background grey */
+#about {
+	background-color: #808080;
+}
+
+/* styling and colours for the panel on how it will look */
+#panel, #flip {
+  color: #008B8B;
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  border: solid 1px black;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
